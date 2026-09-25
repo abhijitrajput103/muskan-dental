@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Dental Treatments — Muskan Dental & Implant Centre</title>
+  <meta name="description" content="Explore our full range of advanced dental treatments at Muskan Dental & Implant Centre Gurgaon. Dental implants, cosmetic smile design, root canal, orthodontics, and more.">
+  <link rel="stylesheet" href="styles.css?v=8">
+  <link rel="icon" href="muskan-logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="muskan-logo.png" alt="Muskan Dental" width="140">
+      </a>
+      <nav class="header__nav" id="mainNav">
+        <a href="index.html" class="header__nav-link">Home</a>
+        <a href="index.html#about" class="header__nav-link">About</a>
+        <a href="treatments.html" class="header__nav-link active">Treatments</a>
+        <a href="index.html#doctors" class="header__nav-link">Doctors</a>
+        <a href="international.html" class="header__nav-link">Dental Tourism</a>
+        <a href="gallery.html" class="header__nav-link">Gallery</a>
+        <a href="testimonials.html" class="header__nav-link">Testimonials</a>
+        <a href="index.html#contact" class="header__nav-link">Contact</a>
+      </nav>
+      <a href="tel:+919810580837" class="header__phone">
+        <span>📞</span> +91 98105 80837
+      </a>
+      <button class="header__hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="header__mobile-nav" id="mobileNav">
+      <a href="index.html" data-mobile-link>Home</a>
+      <a href="index.html#about" data-mobile-link>About</a>
+      <a href="treatments.html" data-mobile-link>Treatments</a>
+      <a href="index.html#doctors" data-mobile-link>Doctors</a>
+      <a href="international.html" data-mobile-link>Dental Tourism</a>
+      <a href="gallery.html" data-mobile-link>Gallery</a>
+      <a href="testimonials.html" data-mobile-link>Testimonials</a>
+      <a href="index.html#contact" data-mobile-link>Contact</a>
+    </div>
+  </header>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero">
+    <div class="page-hero__bg">
+      <img src="clinic-picture.png" alt="Muskan Dental & Implant Centre Clinic" loading="eager">
+    </div>
+    <div class="page-hero__overlay"></div>
+    <div class="container">
+      <div class="page-hero__content">
+        <nav class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span class="breadcrumbs__sep">›</span>
+          <span class="breadcrumbs__current">Treatments</span>
+        </nav>
+        <span class="page-hero__label">Clinical Excellence</span>
+        <h1 class="page-hero__title">Advanced Dental Treatments<br>Tailored for You</h1>
+        <p class="page-hero__subtitle">From microscopic root canals and computer-guided dental implants to bespoke porcelain smile makeovers — explore our complete spectrum of specialized treatments.</p>
+        <div style="display: flex; gap: 16px; margin-top: 24px; flex-wrap: wrap;">
+          <a href="#all-treatments" class="btn btn--primary">Browse All Treatments ↓</a>
+          <a href="https://wa.me/919810580837?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20dental%20treatments." target="_blank" rel="noopener" class="btn btn--outline-white">Free Virtual Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ALL TREATMENTS SECTION ========== -->
+  <section class="section" id="all-treatments">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">Comprehensive Portfolio</span>
+        <h2 class="section__title">Explore Our Treatments</h2>
+        <p class="section__subtitle">Click any treatment to view in-depth details, step-by-step procedures, clinical benefits, FAQs, and before & after cases.</p>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="filter-bar reveal" style="justify-content: center; margin-bottom: 48px;">
+        <button class="filter-pill active" data-filter="all">All Treatments</button>
+        <button class="filter-pill" data-filter="implants">Implants & Restorative</button>
+        <button class="filter-pill" data-filter="cosmetic">Cosmetic & Aesthetics</button>
+        <button class="filter-pill" data-filter="general">Endodontics & General</button>
+        <button class="filter-pill" data-filter="ortho">Orthodontics & Kids</button>
+      </div>
+
+      <!-- Treatments Grid -->
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;" id="treatmentCardsGrid">
+
+        <!-- Treatment 1: Dental Implants -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Dental Implants.jpg" alt="Dental Implants" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Implantology</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Dental Implants</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Permanent titanium & zirconia tooth replacements using 3D guided computer surgery for maximum precision, stability, and lifetime longevity.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 1-2 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Pain-Free</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🛡 Lifetime Warranty</span>
+            </div>
+            <a href="treatments/dental-implants.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 2: Dental Implant Bridge -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="before-after/Dental-implants-Bridge-after.jpg" alt="Dental Implant Bridge" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Implant Bridge</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Dental Implant Bridge</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Fix multiple missing teeth with high-strength screw-retained or cemented porcelain bridges anchored securely on dental implants without natural tooth grinding.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 2-3 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Fixed Teeth</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🛡 Lifetime Warranty</span>
+            </div>
+            <a href="treatments/dental-implant-bridge.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 3: Anterior Dental Implant -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="before-after/anterior-implant-after.jpg" alt="Anterior Dental Implant" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Aesthetic Zone</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Anterior Dental Implant</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">High-aesthetic single-tooth replacement in the visible smile zone with custom emergence profile abutments and translucent ceramic crowns.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ Same-Day Temp</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Natural Gum Line</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 Lifetime Post</span>
+            </div>
+            <a href="treatments/anterior-implant.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 4: E-Max Crown -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="before-after/E-max-crown-after.jpg" alt="E-Max Porcelain Crowns" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Ceramic Crowns</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">E-Max Ceramic Crowns</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">All-ceramic lithium disilicate crowns offering lifelike translucency, metal-free aesthetics, and unmatched durability for front and back teeth.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 2 Visits (3 Days)</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Zero Metal</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 15+ Yrs Longevity</span>
+            </div>
+            <a href="treatments/e-max-crown.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 5: Dental Crowns & Bridges -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Esthetic Dentistry.jpg" alt="Dental Crowns & Bridges" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Fixed Prosthetics</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Dental Crowns & Bridges</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Precision-fitted monolithic zirconia and all-ceramic crowns and multi-unit fixed bridges to restore chewing function, structural strength, and bite harmony.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 2-3 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Zirconia / Ceramic</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🛡 10-15 Yrs</span>
+            </div>
+            <a href="treatments/dental-crowns-bridges.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 6: Anterior PFM Bridge -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="before-after/Anterior-pfm-bridge-after.jpg" alt="Anterior PFM Bridge" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Front Teeth Bridge</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Anterior PFM Bridge</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">High-strength porcelain fused to metal multi-unit fixed bridge restoring missing front teeth with dependable structural support and natural aesthetic matching.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 2-3 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ High Strength</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 Porcelain Fused</span>
+            </div>
+            <a href="treatments/anterior-pfm-bridge.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 7: E-Max Endocrown -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="before-after/emax-endocrown2.jpeg" alt="E-Max Endocrown" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Post-Endo Restoration</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">E-Max Endocrown</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Conservative monolithic lithium disilicate restoration anchored in the pulp chamber of root-canal-treated molars, eliminating destructive post-and-core procedures.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ Single / 2 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Conservative</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 Monolithic Lithium</span>
+            </div>
+            <a href="treatments/e-max-endocrown.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 8: E-Max Inlays & Onlays -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="before-after/E-max-inlay-after.jpg" alt="E-Max Inlays & Onlays" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Conservative Fillings</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">E-Max Inlays & Onlays</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Laboratory-crafted micro-etched ceramic partial crowns restoring extensively decayed or fractured teeth while conserving 80-90% of healthy tooth structure.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 2 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Micro-Etched Bond</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 90% Tooth Preserved</span>
+            </div>
+            <a href="treatments/e-max-inlay.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 9: Full Mouth Rehabilitation -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Full Mouth Rehabilitation.jpg" alt="Full Mouth Rehabilitation" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Reconstruction</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Full Mouth Rehabilitation</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Total arch restoration combining implants, fixed bridges, and occlusal re-engineering for severely worn, broken, or missing teeth.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ Staged Treatment</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Bite Restoration</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 All-on-4 / All-on-6</span>
+            </div>
+            <a href="treatments/full-mouth-rehabilitation.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 10: Porcelain Dental Veneers -->
+        <div class="card treatment-item reveal" data-category="cosmetic">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="before-after/veneers-after.jpg" alt="Porcelain Dental Veneers" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Smile Aesthetics</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Porcelain Dental Veneers</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Ultra-thin handcrafted ceramic laminates permanently bonded to tooth fronts to correct discoloration, gaps, chipped edges, and minor misalignment.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 2 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ 0.3mm Ultra-Thin</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 Stain-Proof</span>
+            </div>
+            <a href="treatments/veneers.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 11: Cosmetic Smile Makeover -->
+        <div class="card treatment-item reveal" data-category="cosmetic">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Esthetic Dentistry.jpg" alt="Cosmetic Smile Makeover" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Cosmetic Design</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Cosmetic Smile Makeover</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Comprehensive smile enhancement utilizing digital smile design (DSD), veneers, aesthetic bonding, and tooth recontouring tailored to your facial proportions.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 2-3 Visits</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ 3D Digital Preview</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💎 Total Transformation</span>
+            </div>
+            <a href="treatments/smile-makeover.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 12: Laser Teeth Whitening -->
+        <div class="card treatment-item reveal" data-category="cosmetic">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Esthetic Dentistry.jpg" alt="Laser Teeth Whitening" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Brightening</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Laser Teeth Whitening</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Advanced Philips Zoom & laser-activated enamel brightening that lifts stubborn stains by up to 8 shades in a single comfortable 60-minute session.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 60 Minutes</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Up to 8 Shades</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🛡 Enamel-Safe</span>
+            </div>
+            <a href="treatments/teeth-whitening.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 13: Microscopic Root Canal -->
+        <div class="card treatment-item reveal" data-category="general">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Root Canal.jpg" alt="Root Canal Treatment" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Endodontics</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Microscopic Root Canal</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Pain-free, single-sitting root canal treatment performed under dental magnification with rotary nickel-titanium endodontic systems.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ Single Sitting (45 min)</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Painless Anesthesia</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🔬 Microscopic</span>
+            </div>
+            <a href="treatments/root-canal.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 14: Laser Dentistry / Lasers for Gums -->
+        <div class="card treatment-item reveal" data-category="general">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Laser Dentistry.jpg" alt="Laser Dentistry" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Laser Technology</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Lasers for Gums Treatment</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Suture-free, bloodless soft tissue procedures including laser gum contouring, depigmentation, crown lengthening, and periodontal sterilization.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ Rapid Healing</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ No Stitches</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⚡ Minimal Bleeding</span>
+            </div>
+            <a href="treatments/laser-dentistry.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 15: General Dentistry -->
+        <div class="card treatment-item reveal" data-category="general">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/General Dentistry.jpg" alt="General & Preventive Dentistry" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Preventive</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">General Dentistry</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Routine check-ups, low-radiation digital radiography, ultrasonic scaling, and tooth-colored composite restorations to safeguard oral longevity.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 30-45 Min</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Ultrasonic Cleaning</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🛡 Preventive Care</span>
+            </div>
+            <a href="treatments/general-dentistry.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 16: Orthodontics & Clear Aligners -->
+        <div class="card treatment-item reveal" data-category="ortho">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Orthodontic Braces.jpg" alt="Orthodontics & Clear Aligners" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Orthodontics</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Orthodontics & Aligners</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Discreet invisible clear aligners and ceramic self-ligating braces designed to correct crowding, gaps, and bite misalignment smoothly.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ 6-18 Months</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Invisible Options</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🦷 Custom Trays</span>
+            </div>
+            <a href="treatments/orthodontics.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 17: Kids Dentistry -->
+        <div class="card treatment-item reveal" data-category="ortho">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Kids Dentistry.jpg" alt="Pediatric & Kids Dentistry" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Pediatric Care</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">Kids Dentistry</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Child-friendly dental care in a welcoming, stress-free environment. Fluoride applications, pit & fissure sealants, and early orthodontic guidance.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">⏱ Gentle & Quick</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✨ Zero Anxiety</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🧸 Pediatric Specialist</span>
+            </div>
+            <a href="treatments/kids-dentistry.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Treatment Details →</a>
+          </div>
+        </div>
+
+        <!-- Treatment 18: Dental Tourism -->
+        <div class="card treatment-item reveal" data-category="implants">
+          <div style="position: relative; overflow: hidden; aspect-ratio: 16/10;">
+            <img src="treatments/Dental Tourism.jpg" alt="International Dental Tourism" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;">
+            <span style="position: absolute; top: 16px; left: 16px; background: rgba(15,27,45,0.85); backdrop-filter: blur(4px); color: var(--color-gold); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Global Patients</span>
+          </div>
+          <div class="card__body" style="padding: 28px;">
+            <h3 class="card__title" style="margin-bottom: 8px;">International Dental Tourism</h3>
+            <p class="card__text" style="font-size: 0.9rem; margin-bottom: 16px;">Save up to 70% on major dental restorations with luxury clinic care, airport transfers, hotel concierge assistance, and digital remote follow-up.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">✈️ Travel Concierge</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">💰 70% Cost Savings</span>
+              <span style="font-size: 0.75rem; padding: 4px 10px; background: var(--color-gray-100); border-radius: 6px; color: var(--color-gray-700);">🌐 15+ Countries</span>
+            </div>
+            <a href="international.html" class="btn btn--primary" style="width: 100%; padding: 12px 20px;">View Dental Tourism Hub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY CHOOSE US FOR TREATMENTS ========== -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">The Muskan Advantage</span>
+        <h2 class="section__title">Clinical Standards That Set Us Apart</h2>
+        <p class="section__subtitle">Every procedure at Muskan Dental is backed by hospital-grade sterilization, advanced digital imaging, and over 24 years of surgical expertise.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;" class="reveal">
+        <div style="background: var(--color-white); padding: 32px 24px; border-radius: 16px; border: 1px solid var(--color-gray-200); text-align: center;">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--color-primary-subtle); display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin: 0 auto 16px;">🎯</div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--color-navy); margin-bottom: 8px;">3D Digital Precision</h4>
+          <p style="font-size: 0.88rem; color: var(--color-gray-600); line-height: 1.6;">Intraoral scanners and digital CAD/CAM planning eliminate messy impressions and guarantee millimeter-accurate fit.</p>
+        </div>
+
+        <div style="background: var(--color-white); padding: 32px 24px; border-radius: 16px; border: 1px solid var(--color-gray-200); text-align: center;">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--color-primary-subtle); display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin: 0 auto 16px;">🛡</div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--color-navy); margin-bottom: 8px;">Class B Sterilization</h4>
+          <p style="font-size: 0.88rem; color: var(--color-gray-600); line-height: 1.6;">European-standard vacuum autoclaves, disposable surgical kits, and stringent 6-step cross-infection control protocols.</p>
+        </div>
+
+        <div style="background: var(--color-white); padding: 32px 24px; border-radius: 16px; border: 1px solid var(--color-gray-200); text-align: center;">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--color-primary-subtle); display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin: 0 auto 16px;">✨</div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--color-navy); margin-bottom: 8px;">Painless Delivery</h4>
+          <p style="font-size: 0.88rem; color: var(--color-gray-600); line-height: 1.6;">Computerized local anesthesia systems and gentle laser therapies ensure virtually discomfort-free procedures.</p>
+        </div>
+
+        <div style="background: var(--color-white); padding: 32px 24px; border-radius: 16px; border: 1px solid var(--color-gray-200); text-align: center;">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--color-primary-subtle); display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin: 0 auto 16px;">⭐</div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--color-navy); margin-bottom: 8px;">24+ Years Experience</h4>
+          <p style="font-size: 0.88rem; color: var(--color-gray-600); line-height: 1.6;">Over 15,000+ satisfied smiles created by Dr. Muskan Sharma and our senior multi-disciplinary specialist team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CALL TO ACTION (CTA) ========== -->
+  <section class="cta-section" id="cta-main">
+    <div class="container">
+      <div class="cta-card reveal">
+        <div class="cta-card__bg">
+          <img src="bg/cta-bg.png" alt="Luxury dental clinic interior" loading="lazy">
+        </div>
+        <div class="cta-card__overlay"></div>
+        <div class="cta-card__content">
+          <div class="cta-card__text">
+            <span class="section__label" style="color: var(--color-gold);">Personalized Treatment Planning</span>
+            <h2 class="cta-card__title">Unsure Which Treatment<br>Is Right for You?</h2>
+            <p class="cta-card__subtitle">
+              Book a comprehensive oral examination or speak directly with our clinical specialist team via WhatsApp. We will diagnose your case and provide transparent, tailored solutions.
+            </p>
+          </div>
+          <div class="cta-card__actions">
+            <a href="https://wa.me/919810580837?text=Hi%20Muskan%20Dental,%20I%20would%20like%20guidance%20on%20treatment%20options." target="_blank" rel="noopener" class="btn btn--gold btn--lg">
+              <span>💬</span> Consult on WhatsApp
+            </a>
+            <a href="tel:+919810580837" class="btn btn--outline-white btn--lg">
+              <span>📞</span> Call +91 98105 80837
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="muskan-logo.png" alt="Muskan Dental Logo" class="footer__logo">
+          <p class="footer__desc">Muskan Dental & Implant Centre is a leading luxury dental clinic in Gurgaon providing advanced implantology, cosmetic smile makeovers, and specialized oral care.</p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="treatments.html">Treatments</a></li>
+            <li><a href="index.html#doctors">Our Doctors</a></li>
+            <li><a href="international.html">Dental Tourism</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__title">Key Treatments</h4>
+          <ul>
+            <li><a href="treatments/dental-implants.html">Dental Implants</a></li>
+            <li><a href="treatments/veneers.html">Porcelain Veneers</a></li>
+            <li><a href="treatments/e-max-crown.html">E-Max Ceramic Crowns</a></li>
+            <li><a href="treatments/smile-makeover.html">Cosmetic Smile Makeover</a></li>
+            <li><a href="treatments/root-canal.html">Microscopic Root Canal</a></li>
+            <li><a href="treatments/orthodontics.html">Orthodontics & Aligners</a></li>
+            <li><a href="treatments/full-mouth-rehabilitation.html">Full Mouth Rehabilitation</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4 class="footer__title">Contact Us</h4>
+          <p>📍 Sector 15 & Friends Colony, Gurgaon, HR</p>
+          <p>📞 <a href="tel:+919810580837" style="color: inherit;">+91 98105 80837</a></p>
+          <p>✉️ <a href="mailto:info@muskandental.com" style="color: inherit;">info@muskandental.com</a></p>
+          <p>⏰ Mon - Sat: 10:00 AM - 8:00 PM</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Muskan Dental & Implant Centre. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Filter functionality for Treatment cards grid
+    document.querySelectorAll('.filter-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        const filter = pill.getAttribute('data-filter');
+        document.querySelectorAll('#treatmentCardsGrid .treatment-item').forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
