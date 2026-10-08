@@ -47,6 +47,8 @@ treatments = [
         ],
         "before_after": [
             {"before": "../before-after/Dental-implants-Bridge01.jpg", "after": "../before-after/Dental-implants-Bridge-after.jpg", "label": "Dental Implant Bridge"},
+            {"before": "../before-after/Premolar-implant-pic01.jpg", "after": "../before-after/Premolar-implant-pic02.jpg", "label": "Premolar Dental Implant"},
+            {"before": "../before-after/anterior-implant01.jpg", "after": "../before-after/anterior-implant-after.jpg", "label": "Anterior Dental Implant"},
         ],
         "faqs": [
             {"q": "Does dental implant surgery hurt?", "a": "No. The procedure is performed under effective local anesthesia. Most patients report that getting a dental implant causes significantly less discomfort than a standard tooth extraction. Over-the-counter pain relievers are generally sufficient for the first 24-48 hours."},
@@ -170,7 +172,11 @@ treatments = [
             {"title": "3. Step-by-Step Execution", "desc": "Each procedure performed with precision for optimal results."},
             {"title": "4. Final Reveal", "desc": "Your stunning new smile unveiled — ready to make an impression."},
         ],
-        "before_after": [],
+        "before_after": [
+            {"before": "../before-after/WhatsApp Image 2026-09-17 at 18.47.50.jpeg", "after": "../before-after/WhatsApp Image 2026-09-17 at 18.47.51.jpeg", "label": "Full Smile Transformation"},
+            {"before": "../before-after/E max veneer-before.jpeg", "after": "../before-after/E max veneer-after.jpeg", "label": "E-Max Smile Design"},
+            {"before": "../before-after/veneers-after.jpg", "after": "../before-after/veneers-before.jpg", "label": "Porcelain Veneers Makeover"},
+        ],
         "faqs": [
             {"q": "How long does a smile makeover take?", "a": "Depending on the procedures involved, a smile makeover can take from 2 visits to several weeks. Many cosmetic treatments can be completed in just a few days."},
             {"q": "Is a smile makeover permanent?", "a": "Porcelain veneers and crowns are long-lasting (15+ years). Teeth whitening may require periodic touch-ups. We provide complete aftercare guidance."},
@@ -232,8 +238,8 @@ treatments = [
             {"title": "4. Precision Bonding", "desc": "Veneers permanently bonded for a stunning, natural-looking smile."},
         ],
         "before_after": [
-            {"before": "../before-after/veneers-before.jpg", "after": "../before-after/veneers-after.jpg", "label": "Porcelain Veneers"},
             {"before": "../before-after/E max veneer-before.jpeg", "after": "../before-after/E max veneer-after.jpeg", "label": "E-Max Veneers"},
+            {"before": "../before-after/veneers-after.jpg", "after": "../before-after/veneers-before.jpg", "label": "Porcelain Veneers"},
         ],
         "faqs": [
             {"q": "How long do veneers last?", "a": "Porcelain veneers typically last 15-20 years with proper care. Composite veneers may last 5-7 years before requiring replacement."},
@@ -295,7 +301,11 @@ treatments = [
             {"title": "3. Custom Fabrication", "desc": "Lab-crafted restoration matched to your natural teeth."},
             {"title": "4. Final Cementation", "desc": "Precision fitting and permanent bonding for lasting results."},
         ],
-        "before_after": [],
+        "before_after": [
+            {"before": "../before-after/E-max-crown01.jpg", "after": "../before-after/E-max-crown-after.jpg", "label": "E-Max Ceramic Crown"},
+            {"before": "../before-after/Anterior-pfm-bridge01.jpg", "after": "../before-after/Anterior-pfm-bridge-after.jpg", "label": "Anterior Fixed Bridge"},
+            {"before": "../WhatsApp Image 2026-09-05 at 13.39.28.jpeg", "after": "../WhatsApp Image 2026-09-05 at 13.39.29.jpeg", "label": "Molar Crown Restoration"},
+        ],
         "faqs": [
             {"q": "How long do crowns and bridges last?", "a": "With proper care and regular dental visits, crowns and bridges typically last 10-15 years, and many last even longer."},
             {"q": "Is the procedure painful?", "a": "The procedure is performed under local anesthesia and is completely painless. A temporary crown is placed while your permanent one is being made."},
@@ -540,7 +550,7 @@ treatments = [
             {"title": "4. Adhesive Bonding", "desc": "Precision bonding with resin cement for a permanent, sealed fit."},
         ],
         "before_after": [
-            {"before": "../before-after/emax-endocrown.jpeg", "after": "../before-after/emax-endocrown2.jpeg", "label": "E-Max Endocrown"},
+            {"before": "../before-after/emax-endocrown2.jpeg", "after": "../before-after/emax-endocrown.jpeg", "label": "E-Max Endocrown"},
         ],
         "faqs": [
             {"q": "What is the difference between a crown and an endocrown?", "a": "A traditional crown requires a post inside the root canal for support, while an endocrown anchors directly in the pulp chamber, preserving more tooth structure."},
@@ -728,6 +738,7 @@ treatments = [
         ],
         "before_after": [
             {"before": "../before-after/Dental-implants-Bridge01.jpg", "after": "../before-after/Dental-implants-Bridge-after.jpg", "label": "Dental Implant Bridge"},
+            {"before": "../before-after/Premolar-implant-pic01.jpg", "after": "../before-after/Premolar-implant-pic02.jpg", "label": "Implant Restoration"},
         ],
         "faqs": [
             {"q": "How many implants are needed for a bridge?", "a": "Typically 2 implant posts are needed to support a bridge replacing 3-4 missing teeth. Larger spans may require additional implants."},
@@ -790,7 +801,8 @@ treatments = [
             {"title": "4. Precision Bonding", "desc": "Final shade verification and permanent bonding of the E-max crown."},
         ],
         "before_after": [
-            {"before": "../before-after/E-max-crown01.jpg", "after": "../before-after/E-max-crown-after.jpg", "label": "E-Max Crown"},
+            {"before": "../before-after/E-max-crown01.jpg", "after": "../before-after/E-max-crown-after.jpg", "label": "E-Max Ceramic Crown"},
+            {"before": "../WhatsApp Image 2026-09-05 at 13.39.28.jpeg", "after": "../WhatsApp Image 2026-09-05 at 13.39.29.jpeg", "label": "Ceramic Crown Restoration"},
         ],
         "faqs": [
             {"q": "How long do E-max crowns last?", "a": "With proper oral care, E-max crowns typically last 15-20 years. Their high-strength lithium disilicate construction ensures exceptional durability."},
@@ -949,7 +961,7 @@ def generate_treatment_html(t):
     
     # Build before-after section
     ba_html = ""
-    if t["before_after"]:
+    if t.get("before_after"):
         ba_cards = ""
         for ba in t["before_after"]:
             ba_cards += f"""
@@ -957,32 +969,33 @@ def generate_treatment_html(t):
                 <div class="ba-card__images">
                   <div class="ba-card__side">
                     <span class="ba-card__label">Before</span>
-                    <img src="{ba['before']}" alt="Before {t['title']} Treatment" loading="lazy">
+                    <img src="{ba['before']}" alt="Before {ba['label']}" loading="lazy">
                   </div>
                   <div class="ba-card__divider"></div>
                   <div class="ba-card__arrow">→</div>
                   <div class="ba-card__side">
                     <span class="ba-card__label">After</span>
-                    <img src="{ba['after']}" alt="After {t['title']} Treatment" loading="lazy">
+                    <img src="{ba['after']}" alt="After {ba['label']}" loading="lazy">
                   </div>
                 </div>
                 <div class="ba-card__info">
                   <span class="ba-card__treatment">{ba['label']}</span>
+                  <img src="../muskan-logo-dark.png" alt="Muskan Dental" class="ba-card__logo" height="22" width="70">
                 </div>
               </div>"""
         
         ba_html = f"""
-          <!-- Before & After Results -->
+          <!-- Clinical Transformations / Case Pictures -->
           <div class="reveal" style="margin-bottom: var(--space-8);">
-            <span class="section__label" style="text-align: left;">Clinical Results</span>
-            <h2 style="font-family: var(--font-heading); font-size: 1.85rem; font-weight: 700; color: var(--color-navy); margin-bottom: var(--space-3);">Before & After</h2>
-            <p style="font-size: 0.95rem; color: var(--color-gray-600); line-height: 1.6; margin-bottom: var(--space-4);">Real patient {t['title'].lower()} transformation at Muskan Dental.</p>
+            <span class="section__label" style="text-align: left;">Clinical Transformations</span>
+            <h2 style="font-family: var(--font-heading); font-size: 1.85rem; font-weight: 700; color: var(--color-navy); margin-bottom: var(--space-3);">Case Pictures (Before & After)</h2>
+            <p style="font-size: 0.95rem; color: var(--color-gray-600); line-height: 1.6; margin-bottom: var(--space-4);">Real clinical transformations completed by Dr. Sudhir Yadav & our specialist team at Muskan Dental.</p>
 
-            <div class="ba-grid" style="max-width: 520px;">{ba_cards}
+            <div class="ba-grid">{ba_cards}
             </div>
 
-            <div style="margin-top: var(--space-4);">
-              <a href="../gallery.html" class="btn btn--outline btn--sm" style="font-size: 0.85rem;">View Full Gallery →</a>
+            <div style="margin-top: var(--space-5);">
+              <a href="../gallery.html" class="btn btn--outline btn--sm" style="font-size: 0.85rem;">View Full Case Gallery →</a>
             </div>
           </div>
 """
@@ -1048,7 +1061,7 @@ def generate_treatment_html(t):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{t['page_title']}</title>
   <meta name="description" content="{t['meta_desc']}">
-  <link rel="stylesheet" href="../styles.css?v=9">
+  <link rel="stylesheet" href="../styles.css?v=11">
   <link rel="icon" href="../muskan-logo.png" type="image/png">
 </head>
 <body>

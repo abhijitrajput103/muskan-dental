@@ -92,7 +92,8 @@ function initMuskanScripts() {
     const suffix = element.dataset.suffix || '';
     const duration = 2000;
     const startTime = performance.now();
-    const isLargeNumber = target >= 1000;
+    const isYear = target === 1998 || element.dataset.counter === '1998' || element.dataset.noComma === 'true';
+    const isLargeNumber = target >= 1000 && !isYear;
 
     function easeOutCubic(t) {
       return 1 - Math.pow(1 - t, 3);
@@ -104,7 +105,9 @@ function initMuskanScripts() {
       const easedProgress = easeOutCubic(progress);
       const current = Math.round(easedProgress * target);
 
-      if (isLargeNumber) {
+      if (isYear) {
+        element.textContent = current + suffix;
+      } else if (isLargeNumber) {
         element.textContent = current.toLocaleString() + suffix;
       } else {
         element.textContent = current + suffix;
@@ -112,6 +115,8 @@ function initMuskanScripts() {
 
       if (progress < 1) {
         requestAnimationFrame(update);
+      } else if (isYear) {
+        element.textContent = target + suffix;
       }
     }
 
