@@ -58,7 +58,7 @@ treatments = [
         "sidebar_anesthesia": "Painless Computer Local",
         "sidebar_recovery": "24–48 Hours",
         "sidebar_longevity": "Lifetime Durability",
-        "doctor": {"name": "Dr. Sudhir Yadav", "title": "Chief Implantologist & Surgeon", "img": "../doctor-sudhir-yadav.jpg", "desc": "Over 24 years of surgical implant experience with 5,000+ successful implant placements in Gurgaon."},
+        "doctor": {"name": "Dr. Sudhir Yadav", "title": "Chief Implantologist & Surgeon", "img": "../doctor-sudhir-yadav.jpg", "desc": "Practising since 1998 with 5,000+ successful surgical implant placements in Gurgaon."},
         "related": [
             {"name": "Dental Implant Bridge", "href": "dental-implant-bridge.html"},
             {"name": "E-Max Ceramic Crowns", "href": "e-max-crown.html"},
@@ -233,6 +233,7 @@ treatments = [
         ],
         "before_after": [
             {"before": "../before-after/veneers-before.jpg", "after": "../before-after/veneers-after.jpg", "label": "Porcelain Veneers"},
+            {"before": "../before-after/E max veneer-before.jpeg", "after": "../before-after/E max veneer-after.jpeg", "label": "E-Max Veneers"},
         ],
         "faqs": [
             {"q": "How long do veneers last?", "a": "Porcelain veneers typically last 15-20 years with proper care. Composite veneers may last 5-7 years before requiring replacement."},
@@ -738,7 +739,7 @@ treatments = [
         "sidebar_anesthesia": "Painless Local",
         "sidebar_recovery": "3–6 Months (Total)",
         "sidebar_longevity": "20+ Years",
-        "doctor": {"name": "Dr. Sudhir Yadav", "title": "Chief Implantologist & Surgeon", "img": "../doctor-sudhir-yadav.jpg", "desc": "Over 24 years of surgical implant experience with thousands of successful implant bridge placements."},
+        "doctor": {"name": "Dr. Sudhir Yadav", "title": "Chief Implantologist & Surgeon", "img": "../doctor-sudhir-yadav.jpg", "desc": "Practising since 1998 with thousands of successful surgical implant bridge placements."},
         "related": [
             {"name": "Dental Implants", "href": "dental-implants.html"},
             {"name": "E-Max Ceramic Crowns", "href": "e-max-crown.html"},
@@ -927,7 +928,7 @@ treatments = [
         "sidebar_anesthesia": "Painless Local",
         "sidebar_recovery": "3–6 Months (Total)",
         "sidebar_longevity": "Lifetime Durability",
-        "doctor": {"name": "Dr. Sudhir Yadav", "title": "Chief Implantologist & Surgeon", "img": "../doctor-sudhir-yadav.jpg", "desc": "Over 24 years of surgical implant experience specializing in aesthetic anterior implant placements."},
+        "doctor": {"name": "Dr. Sudhir Yadav", "title": "Chief Implantologist & Surgeon", "img": "../doctor-sudhir-yadav.jpg", "desc": "Practising since 1998 specializing in aesthetic anterior implant placements."},
         "related": [
             {"name": "Dental Implants", "href": "dental-implants.html"},
             {"name": "Dental Implant Bridge", "href": "dental-implant-bridge.html"},
@@ -1047,7 +1048,7 @@ def generate_treatment_html(t):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{t['page_title']}</title>
   <meta name="description" content="{t['meta_desc']}">
-  <link rel="stylesheet" href="../styles.css?v=8">
+  <link rel="stylesheet" href="../styles.css?v=9">
   <link rel="icon" href="../muskan-logo.png" type="image/png">
 </head>
 <body>
@@ -1065,7 +1066,7 @@ def generate_treatment_html(t):
         <a href="../index.html#doctors" class="header__nav-link">Doctors</a>
         <a href="../international.html" class="header__nav-link">Dental Tourism</a>
         <a href="../gallery.html" class="header__nav-link">Gallery</a>
-        <a href="../testimonials.html" class="header__nav-link">Testimonials</a>
+        <a href="../testimonials.html" class="header__nav-link">Our Patient Stories</a>
         <a href="../index.html#contact" class="header__nav-link">Contact</a>
       </nav>
       <a href="tel:+919810580837" class="header__phone">
@@ -1082,7 +1083,7 @@ def generate_treatment_html(t):
       <a href="../index.html#doctors" data-mobile-link>Doctors</a>
       <a href="../international.html" data-mobile-link>Dental Tourism</a>
       <a href="../gallery.html" data-mobile-link>Gallery</a>
-      <a href="../testimonials.html" data-mobile-link>Testimonials</a>
+      <a href="../testimonials.html" data-mobile-link>Our Patient Stories</a>
       <a href="../index.html#contact" data-mobile-link>Contact</a>
     </div>
   </header>
@@ -1246,7 +1247,7 @@ def generate_treatment_html(t):
       <div class="footer__grid">
         <div class="footer__brand">
           <img src="../muskan-logo.png" alt="Muskan Dental Logo" class="footer__logo">
-          <p class="footer__desc">Muskan Dental & Implant Centre is a leading luxury dental clinic in Gurgaon providing advanced implantology, cosmetic smile makeovers, and specialized oral care.</p>
+          <p class="footer__desc">Muskan Dental & Implant Centre is a leading luxury dental clinic in Gurgaon, practising since 1998 and providing advanced implantology, cosmetic smile makeovers, and specialized oral care.</p>
         </div>
         <div class="footer__links">
           <h4 class="footer__title">Quick Links</h4>
@@ -1257,7 +1258,7 @@ def generate_treatment_html(t):
             <li><a href="../index.html#doctors">Our Doctors</a></li>
             <li><a href="../international.html">Dental Tourism</a></li>
             <li><a href="../gallery.html">Gallery</a></li>
-            <li><a href="../testimonials.html">Testimonials</a></li>
+            <li><a href="../testimonials.html">Our Patient Stories</a></li>
           </ul>
         </div>
         <div class="footer__links">
